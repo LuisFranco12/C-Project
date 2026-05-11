@@ -41,7 +41,12 @@ int main() {
         "The Smiling Clerk",
         "A clerk whose smile is carved too wide into his face."
     );
-
+    
+    Monster lazyBullsEye(
+        "The Lazy BullsEye",
+        "A figure who never misses his throwing stuffs is too lazy to throw."
+    );
+    
 
 
     // create more notes usng simialr format
