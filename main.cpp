@@ -18,6 +18,7 @@ int main() {
         - 4 hiding spots for every location
         - Better creepy descriptions for each area and mosnter descriptions
         - write ghost diaolgue
+        gfdgdfg
     */
 
     srand(time(0));
