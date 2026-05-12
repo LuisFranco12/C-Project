@@ -142,6 +142,23 @@ int main() {
         Note("If you find the basement — don't go in. I went in. I left something down there that used to be part of me.")
     };
 
+    vector<string> ghostDialogue = {
+        "You came back. You always come back.",
+        "I tried to leave once. The road just brought me home.",
+        "Don't go to the basement. I left something down there that used to be part of me.",
+        "She's been in the rocking chair since 1986. She won't move. Don't move either.",
+        "The fog remembers everyone who walks through it. It's remembering you right now.",
+        "Room 206 is mine. Was mine. I'm not sure what I am now.",
+        "I wrote those notes on the walls. I thought it would help whoever came next. It didn't help me.",
+        "The bells always ring seven times. I've counted every night for what might be years.",
+        "If you see your own face looking at you — run. It doesn't matter where. Just run.",
+        "I found the end of the hallway once. There was a door. I opened it. I woke up back at the start.",
+        "The nurses aren't cruel. They're confused. That almost makes it worse.",
+        "Don't read what's written on the pharmacy labels. That name used to be mine.",
+        "The church has never held a service. Not a holy one, anyway.",
+        "Whatever you do — don't stand in the center of the ballroom. The footprints aren't old. They're waiting."
+};
+
 
 
     // create more locations here, using similar format
