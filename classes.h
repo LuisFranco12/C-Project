@@ -8,7 +8,6 @@ using namespace std;
 
 class Player {
 public:
-    int bullets = 1;
     int notesFound = 0;
     vector<string> inventory;
 };
@@ -27,9 +26,13 @@ public:
 class Note {
 public:
     string noteText;
+    int codePosition;
+    int codeDigit;
 
-    Note(string newNoteText) {
+    Note(string newNoteText, int newCodePosition, int newCodeDigit) {
         noteText = newNoteText;
+        codePosition = newCodePosition;
+        codeDigit = newCodeDigit;
     }
 };
 
@@ -46,6 +49,8 @@ public:
     string hidingSpot3;
     string hidingSpot4;
 
+    int correctHidingSpot;
+
     Location(
         string newLocationName,
         string newLocationDescription,
@@ -55,7 +60,8 @@ public:
         string newHidingSpot1,
         string newHidingSpot2,
         string newHidingSpot3,
-        string newHidingSpot4
+        string newHidingSpot4,
+        int newCorrectHidingSpot
     ) {
         locationName = newLocationName;
         locationDescription = newLocationDescription;
@@ -67,6 +73,8 @@ public:
         hidingSpot2 = newHidingSpot2;
         hidingSpot3 = newHidingSpot3;
         hidingSpot4 = newHidingSpot4;
+
+        correctHidingSpot = newCorrectHidingSpot;
     }
 };
 
